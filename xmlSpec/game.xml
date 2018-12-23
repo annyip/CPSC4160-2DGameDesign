@@ -1,0 +1,162 @@
+<?xml version = "1.0"?>
+<GameData>
+<!-- screenTitle is also used to identify you and your animation.
+     So make sure to include your name as part of the screenTitle -->
+<title>Long Walks On The Beach</title>
+<maxStringSize>50</maxStringSize>
+
+<frameCapOn>true</frameCapOn>
+<period>17</period>
+
+<maxFrames>1000</maxFrames>
+<username>ayip</username>
+
+<view>
+  <width>1000</width> <!--854 480 x 30 y 30 -->
+  <height>1000</height>
+  <loc x="30" y="30"/>
+</view>
+
+<world>
+  <width>3000</width> <!---2000 800 -->
+  <height>1080</height>
+</world>
+
+<!--<back>
+  <file>assets/bigstarrysky.png</file>
+  <factor>1</factor>
+  <transparency>false</transparency>
+</back> -->
+
+<back>
+  <file>assets/sky.png</file>
+  <factor>1</factor>
+  <transparency>false</transparency>
+</back>
+
+<middle>
+  <file>assets/sea.png</file>
+  <factor>4</factor>
+  <transparency>false</transparency>
+</middle>
+
+<middle2>
+  <file>assets/cloud.png</file>
+  <factor>2</factor>
+  <transparency>false</transparency>
+</middle2>
+
+<front>
+  <file>assets/land.png</file>
+  <factor>5</factor>
+  <transparency>false</transparency>
+</front>
+
+<font name="font">
+  <file>fonts/arial.ttf</file>
+  <size>24</size>
+  <red>255</red>
+  <green>255</green>
+  <blue>0</blue>
+  <alpha>0</alpha>
+</font>
+
+<BeachDude>
+  <file>assets/DudeFinalSaturday.png</file>
+  <startLoc x="800" y="550"/>
+  <frames>12</frames>
+  <frameInterval>170</frameInterval>
+  <speedX>300</speedX>
+  <speedY>0</speedY>
+  <transparency>false</transparency>
+  <bullet>PineappleBullet</bullet>
+  <chunk>
+      <size>70</size>
+      <distance>100</distance>
+  </chunk>
+  <playerLives>3</playerLives>
+</BeachDude>
+
+<Crab>
+  <file>assets/crabLeftSmaller.png</file>
+  <startLoc x="100" y="750"/>
+  <frames>8</frames>
+  <frameInterval>200</frameInterval>
+  <speedX>100</speedX>
+  <speedY>0</speedY>
+  <numCrabs>5</numCrabs>
+  <safeDistance>300</safeDistance>
+  <transparency>false</transparency>
+  <chunk>
+      <size>40</size>
+      <distance>100</distance>
+  </chunk>
+</Crab>
+
+<Boat>
+  <file>assets/boat.png</file>
+  <startLoc x="300" y="450"/>
+  <frames>2</frames>
+  <frameInterval>300</frameInterval>
+  <speedX>80</speedX>
+  <speedY>0</speedY>
+  <transparency>false</transparency>
+</Boat>
+
+<Bird>
+  <file>assets/bird.png</file>
+  <startLoc x="900" y="100"/>
+  <frames>18</frames>
+  <frameInterval>75</frameInterval>
+  <speedX>210</speedX>
+  <speedY>0</speedY>
+  <numBirds>2</numBirds>
+  <transparency>false</transparency>
+</Bird>
+
+<PineappleBullet>
+  <file>assets/pineappleSmaller.png</file>
+  <startLoc x="900" y="100"/>
+  <frames>5</frames>
+  <frameInterval>200</frameInterval>
+  <speedX>400</speedX>
+  <speedY>0</speedY>
+  <distance>350</distance>
+  <strategy>midpoint</strategy>
+  <transparency>false</transparency>
+</PineappleBullet>
+
+<BeachBall>
+  <file>assets/ball2.png</file>
+  <startLoc x="900" y="100"/>
+  <frames>16</frames>
+  <frameInterval>200</frameInterval>
+  <speedX>0</speedX>
+  <speedY>200</speedY>
+  <numBeachBalls>30</numBeachBalls>
+  <transparency>false</transparency>
+</BeachBall>
+
+<Flowers>
+  <file>assets/flowers.png</file>
+  <startLoc x="900" y="100"/>
+  <frames>8</frames>
+  <frameInterval>200</frameInterval>
+  <speedX>0</speedX>
+  <speedY>200</speedY>
+  <NumFlowers>30</NumFlowers>
+  <transparency>false</transparency>
+</Flowers>
+
+<HUD>
+  <location x="30" y ="100"/>
+  <width>260</width>
+  <height>280</height>
+  <fontColorR>0</fontColorR>
+  <fontColorG>0</fontColorG>
+  <fontColorB>0</fontColorB>
+  <fontType>fonts/arial.ttf</fontType>
+  <fontSize>18</fontSize>
+</HUD>
+
+</GameData>
