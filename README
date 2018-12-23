@@ -12,7 +12,7 @@ Project description:
 In this project, I implemented god mode where the player will not die. The project also now features music
 and a restart option. We can press R and the game will restart. More importantly,
 the project reaches a conclusion. You will win once you have accrued 100 Points
-by shooting the crabs and you will lose if you lose all 3 lives.
+by shooting the crabs and you will lose if you lose all 3 lives. For pizzaz, I have included painter's algorithm featuring the flowers. 
 
 Dude -> https://craftpix.net/freebies/island-boy-character-free-sprite/
 Crab -> https://www.youtube.com/watch?v=JWUEdI_ZJ64
